@@ -1,0 +1,16 @@
+{
+    "name": "status-site",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.cakephp.org"
+        }
+    ],
+    "require": {
+        "pear-cakephp/cakephp": "2.4.0-beta",
+        "dg/twitter-php": "v3.1"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}

@@ -15,7 +15,6 @@ class PhotosController extends AppController {
  *
  * @var mixed
  */
-	public $scaffold;
 
     public function index()
     {

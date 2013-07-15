@@ -6,6 +6,10 @@ App::uses('AppController', 'Controller');
  */
 class PhotosController extends AppController {
 
+    public $paginate = array(
+        'order' => array('Photo.created' => 'DESC')
+    );
+
 /**
  * Scaffold
  *

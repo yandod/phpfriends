@@ -12,3 +12,5 @@ foreach ($data as $row):?>
     <p class="description"><?php echo h($row['Photo']['text']); ?></p>
 </p>
 <?php endforeach; ?>
+<hr>
+<?php echo $this->Paginator->numbers(); ?>

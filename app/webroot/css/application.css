@@ -1,0 +1,16 @@
+.photobox {
+    border-radius: 10px;
+    background-color: #bcbcbe;
+    padding: 20px;
+}
+
+.description {
+    border-radius: 10px;
+    background-color: #ffe545;
+    padding: 20px;
+}
+
+#content {
+    text-align: center;
+    width: 400px;
+}

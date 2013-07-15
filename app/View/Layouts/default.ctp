@@ -41,7 +41,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<h1>PHPFriends</h1>
+			<h1>#PHPFriends</h1>
+            Share your friendships with the hashtag #PHPFriends
 		</div>
 		<div id="content">
 

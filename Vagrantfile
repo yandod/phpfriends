@@ -8,4 +8,9 @@ Vagrant.configure("2") do |config|
   doc_root = '/vagrant_data/app/webroot'
   config.vm.network :forwarded_port, guest: 80, host: 8080
   config.vm.synced_folder src_dir, "/vagrant_data", :create => true, :owner=> 'vagrant', :group=>'www-data', :extra => 'dmode=775,fmode=775'
+  config.vm.provision :shell, :inline => <<EOS
+    mysql -u root --execute  "create database if not exists phpfriends"
+    cd /vagrant_data; composer update
+    cd /vagrant_data/app; yes | ./Console/cake schema update
+EOS
 end

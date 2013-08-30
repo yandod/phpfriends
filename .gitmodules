@@ -1,0 +1,3 @@
+[submodule "cookbooks/omusubi"]
+	path = cookbooks/omusubi
+	url = git@github.com:yandod/omusubi.git

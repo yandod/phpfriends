@@ -7,7 +7,7 @@
         }
     ],
     "require": {
-        "pear-cakephp/cakephp": "2.4.0-beta",
+        "pear-cakephp/cakephp": "2.4.3",
         "dg/twitter-php": "v3.1"
     },
     "config": {

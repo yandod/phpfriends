@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3a6ead8b7f09e2d0f03cb79f057dd9ac",
+    "hash": "74e63f76224d420a5f9d52eb1857b305",
     "packages": [
         {
             "name": "dg/twitter-php",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/twitter-php.git",
-                "reference": "v3.1"
+                "reference": "2425744d2cc93960f16b2e5739cd978df8defe59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/twitter-php/zipball/v3.1",
-                "reference": "v3.1",
+                "url": "https://api.github.com/repos/dg/twitter-php/zipball/2425744d2cc93960f16b2e5739cd978df8defe59",
+                "reference": "2425744d2cc93960f16b2e5739cd978df8defe59",
                 "shasum": ""
             },
             "type": "library",
@@ -45,10 +45,10 @@
         },
         {
             "name": "pear-pear.cakephp.org/CakePHP",
-            "version": "2.4.0beta",
+            "version": "2.4.3",
             "dist": {
                 "type": "file",
-                "url": "http://pear.cakephp.org/get/CakePHP-2.4.0beta.tgz",
+                "url": "http://pear.cakephp.org/get/CakePHP-2.4.3.tgz",
                 "reference": null,
                 "shasum": null
             },
@@ -56,7 +56,7 @@
                 "php": ">=5.2.8.0"
             },
             "replace": {
-                "pear-cakephp/cakephp": "== 2.4.0.0-beta"
+                "pear-cakephp/cakephp": "== 2.4.3.0"
             },
             "type": "pear-library",
             "autoload": {
@@ -77,9 +77,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "pear-cakephp/cakephp": 10
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
